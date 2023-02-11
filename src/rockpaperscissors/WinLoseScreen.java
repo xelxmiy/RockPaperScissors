@@ -25,7 +25,7 @@ public class WinLoseScreen extends javax.swing.JFrame {
         String[] options = {"rock", "paper", "scissors"};
         String computerChoice = options[random.nextInt(options.length)];
         String Winner = RockPaperScissors.CheckWin(MainScreen.PlayerChoise, computerChoice);
-        
+        //revial winner
         gameWinner.setText(Winner);
         TheAiChose.setText("The Ai Chose:");
         AiChoice.setText(computerChoice);

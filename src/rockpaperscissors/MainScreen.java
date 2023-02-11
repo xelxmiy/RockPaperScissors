@@ -7,14 +7,12 @@ package rockpaperscissors;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author zelzm
+ * @author Adam Belski
+ * @version 1.0.0
+ * @since 08-Feb-2023
  */
 public class MainScreen extends javax.swing.JFrame {
-
-    /**
-     * Creates new form MainScreen
-     */
+    
     public MainScreen() {
         initComponents();
     }
@@ -112,7 +110,7 @@ public class MainScreen extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+    //player's choice logic
     private void RockButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RockButtonActionPerformed
         PlayerChoise = "rock";
         rps();
@@ -131,6 +129,7 @@ public class MainScreen extends javax.swing.JFrame {
         PlayerChoise = "scissors";
         rps();
     }//GEN-LAST:event_ScissorButtonActionPerformed
+    //this is mostly a cosmetic transition between this screen and the result screen
     public void rps() {
     JOptionPane.showMessageDialog(
                 null,
@@ -184,6 +183,7 @@ public class MainScreen extends javax.swing.JFrame {
             }
         });
     }
+    
     public static String PlayerChoise;
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton PaperButton;

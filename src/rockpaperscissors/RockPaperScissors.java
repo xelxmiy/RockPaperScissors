@@ -12,13 +12,15 @@ public class RockPaperScissors {
       scr.setVisible(true);
 
     }
-    // check who wins
+    // winner logic
     public static String CheckWin(String playerChoice, String computerChoice) {
+        //if the two choices are equal, it's a tie
         if (playerChoice.equals(computerChoice)) {
             return("It's a tie!");
-        } else if (playerChoice == "rock" && computerChoice == "scissors" ||
-               playerChoice == "paper" && computerChoice == "rock" ||
-               playerChoice =="scissors" && computerChoice == "paper") {
+            //check winning cases, if we don't win or tie we lose (duh)
+        } else if ("rock".equals(playerChoice) && "scissors".equals(computerChoice) ||
+               "paper".equals(playerChoice) && "rock".equals(computerChoice) ||
+               "scissors".equals(playerChoice) && "paper".equals(computerChoice)) {
                WinLoseScreen.PlayerScore++;
                return("You win!");
             } else {
