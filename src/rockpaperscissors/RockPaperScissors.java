@@ -2,6 +2,8 @@ package rockpaperscissors;
 
 /**
  * @author Adam Belski
+ * @version 1.0.0
+ * @since 08-Feb-2023
  */
 public class RockPaperScissors {
   public static void main(String[] args) {
