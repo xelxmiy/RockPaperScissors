@@ -1,14 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package rockpaperscissors;
 
 import java.util.Random;
 
 /**
- *
- * @author zelzm
+ * RockPaperScissors - it's rock paper scissors
+ * 
+ * @author Adam Belski
+ * @version 1.0.0
+ * @since 08-Feb-2023
  */
 public class WinLoseScreen extends javax.swing.JFrame {
 

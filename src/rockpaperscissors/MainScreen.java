@@ -7,6 +7,8 @@ package rockpaperscissors;
 import javax.swing.JOptionPane;
 
 /**
+ * RockPaperScissors - it's rock paper scissors
+ * 
  * @author Adam Belski
  * @version 1.0.0
  * @since 08-Feb-2023
